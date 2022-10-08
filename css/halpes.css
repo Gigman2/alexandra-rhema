@@ -141,7 +141,7 @@ h6 {
 
 .section-title {
     margin-top: -13px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .section-title__tagline {
@@ -165,8 +165,8 @@ h6 {
     margin: 0;
     font-weight: 900;
     color: var(--thm-black);
-    font-size: 50px;
-    line-height: 62px;
+    font-size: 35px;
+    line-height: 35px;
 }
 
 
@@ -4189,7 +4189,7 @@ h6 {
 .events-one {
     position: relative;
     display: block;
-    padding: 100px 0 100px;
+    padding: 100px 0 0;
 }
 
 .events-one__left {
@@ -4288,13 +4288,31 @@ h6 {
 }
 
 .events-one__single {
-    position: relative;
     display: block;
+    position: relative;
     transition: all 500ms ease;
+    background: rgb(44 152 212 / 26%);
 }
 
-.events-one__single:hover {
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+.events-one__content {
+    border-top: 7px solid  var(--thm-primary);
+    padding: 10px 20px;
+}
+
+.events-one__content-title{
+    font-family: var(--thm-font);
+    color: var(--thm-primary);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.events-one__content-text{
+    font-family: var(--thm-font);
+    color: var(--thm-black);
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
 }
 
 .events-one__img {
