@@ -247,6 +247,10 @@
         justify-content: center;
     }
 
+    .main-header-two__logo h3{
+        display: inline-block;
+        color: white;
+    }
 
 
 
@@ -517,6 +521,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .main-header-two__logo h3{
+        display: inline-block;
+        color: white;
     }
 
 
@@ -1177,7 +1186,11 @@
         text-align: center;
         margin: 0 0 20px;
     }
-
+    
+    .main-header-two__logo h3{
+        display: inline-block;
+        color: white;
+    }
 
 
 
@@ -1558,10 +1571,12 @@
         display: none;
     }
 
-    .main-header-two__logo {
+    .main-header-two__logo img {
         width: 100%;
         float: none;
         max-width: 50px;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     .main-menu__right-social {
@@ -1589,6 +1604,13 @@
     .main-menu-three__inner .mobile-nav__toggler {
         margin-right: 0;
         float: right;
+    }
+
+    .main-header-two__logo h3{
+        display: inline-block;
+        color: white;
+        vertical-align: middle;
+        margin-bottom: 30px;
     }
 
 

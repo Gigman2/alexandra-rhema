@@ -733,7 +733,7 @@ h6 {
 
 
 
-.main-header-two__logo {
+.main-header-two__logo img {
     position: relative;
     display: block;
     max-width: 80px;
@@ -745,6 +745,10 @@ h6 {
 
 .main-header-two__logo img{
     width: 100%;
+}
+
+.main-header-two__logo h3 {
+    display: none;
 }
 
 
@@ -1347,12 +1351,15 @@ h6 {
 }
 
 .mobile-nav__content .main-header-two__logo {
-    width: 80px;
+    width: 100%;
 }
 
 .mobile-nav__content .logo-box img{
-    width: 100%;
+    width: 80px;
+    display: inline-block;
 }
+
+
 
 .mobile-nav__close {
     position: absolute;
