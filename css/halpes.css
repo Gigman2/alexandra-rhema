@@ -1343,6 +1343,7 @@ h6 {
 .mobile-nav__content .logo-box {
     margin-bottom: 40px;
     display: flex;
+    width: 100px;
 }
 
 .mobile-nav__content .main-header-two__logo {
